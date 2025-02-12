@@ -1,0 +1,20 @@
+.bUtton {
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+    transition: padding .3s;
+    cursor: default;
+    display: block;
+}
+
+.bUtton:hover {
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.theBox {
+    text-align: left;
+}

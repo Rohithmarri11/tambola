@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.appheader{
+  font-size: 25px;
+}
+
+.appbutton{
+  margin-top: 10%;
+  margin-left: 37.5%;
+  display: block;
+}
+
+.appwindow{
+  margin-top: 10%;
+  margin-left: 37.5%;
+  display: none;
+}
+
+.appmain{
+  display: none;
+}

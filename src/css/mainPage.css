@@ -1,0 +1,154 @@
+.bigBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.leftBox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightBox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 40px;
+}
+
+
+.block1{
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+    width: 320px;
+}
+
+.prev-numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.prev-number {
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+.block2{
+    position: relative;
+    width: 210px;
+}
+
+.sound{
+    position: absolute;
+    margin-left: 0px;
+    left: 10px;
+    bottom: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(24, 23, 23, 0.884);
+    cursor: default;
+}
+.nextButton{
+    position: absolute;
+    margin-left: 0px;
+    left: 115px;
+    bottom: 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(24, 23, 23, 0.884);
+    color: white;
+    transition: padding .2s;
+    text-decoration: none;
+    cursor: default;
+}
+
+.resetButton{
+    position: absolute;
+    margin-left: 0px;
+    left: 10px;
+    bottom: 10px;
+    padding: 4px 15px;
+    border-radius: 10px;
+    background-color: rgba(24, 23, 23, 0.884);
+    color: white;
+    transition: padding .2s;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+.resetButton:hover{
+    padding: 6px 17px;
+} 
+.nextButton:hover{
+    padding: 7px 17px;
+}
+
+.block3{
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+    width: 320px;
+}
+
+.prev-numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.prev-number {
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+.block3{
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+}
+
+.number-table {
+    border-collapse: collapse;
+    margin: 250px;
+    margin-top: 10px;
+}
+
+.number-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.number-cell.marked {
+    background-color: #f0f0f0;
+}
+
+.number-cell:hover {
+    background-color: #f0f0f0;
+}
+
+.current-number {
+    font-size: 48px;
+    padding: 20px;
+}

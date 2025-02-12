@@ -1,0 +1,70 @@
+.checkbutton{
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+    transition: padding .3s;
+    cursor: default;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbutton:hover {
+    padding-top: 25px;
+}
+
+
+.checkdialog {
+    width: 280px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+    background: rgba(225, 225, 225, 0.37);
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.buttonincheck {
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(115, 115, 115, 0.564);
+    transition: padding .2s;
+    text-decoration: none;
+    cursor: default;
+}
+
+.buttonincheck:hover {
+    padding: 7px 17px;
+}
+
+.line4 .buttonincheck{
+    margin-left: 120px;
+}
+
+.line0{
+    text-align: center;
+}
+
+.line0, .line1, .line2, .line3, .line4 {
+    margin-bottom: 15px;
+}
+
+.line1 input, .line3 input {
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.line3 input {
+    width: calc(100% - 57px);
+}
+
+.line2 span {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}

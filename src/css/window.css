@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+.window {
+    width: 300px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+    background: rgba(24, 23, 23, 0.884);
+    color: white;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    margin-left: 60%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(115, 115, 115, 0.564);
+    transition: padding .2s;
+    text-decoration: none;
+    cursor: default;
+}
+
+.button:hover {
+    padding: 7px 17px;
+}
+
+.cancel {
+    margin-top: 20px;
+    margin-left: 5%;
+    color: brown;
+    text-decoration: underline;
+}
+
+.theBox{
+    text-align: left;
+}
+
+.notpretty{
+    display: block;
+    margin-bottom: 10px;
+}
+
